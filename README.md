@@ -1,20 +1,33 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+Overview
 
-# Run and deploy your AI Studio app
+ModeSip leverages Google's Gemini API, accessed through Google AI Studio, to generate context-aware beverage recommendations. The model has been fine-tuned using data from reputable healthcare sources to ensure suggestions are both enjoyable and health-conscious.
 
-This contains everything you need to run your app locally.
+Features
 
-View your app in AI Studio: https://ai.studio/apps/drive/1BFYOlLztrq_GzBr03M0nXWwZYU7rIlTS
+Mood-Based Recommendations: Suggests drinks tailored to emotional states such as happiness, sadness, stress, or relaxation.
 
-## Run Locally
+Occasion-Specific Suggestions: Recommends beverages suitable for various occasions like parties, celebrations, or quiet evenings.
 
-**Prerequisites:**  Node.js
+Health-Conscious Choices: Provides options that align with health goals, including sleep improvement and recovery.
+
+Personalized Preferences: Considers user preferences such as taste (sweet, bitter), temperature (warm, cold), and dietary restrictions.
+
+Non-Alcoholic Alternatives: Offers suggestions for non-alcoholic beverages when needed.
+
+Safety and Moderation Notes: Includes health and safety information, especially for alcoholic drinks.
+
+Technologies Used
+
+Backend: Python, Flask
+
+AI Model: Google Gemini API
+
+Fine-Tuning: Healthcare datasets for personalized recommendations
+
+Frontend: HTML, CSS, JavaScript
+
+Deployment: Google Cloud Platform
+
+Installation
 
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
